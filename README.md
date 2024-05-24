@@ -1,6 +1,6 @@
 # myapp-terraform
 
-This project is an entire Infraestructure and CI/CD setup for a typeorm-express-typescript application
+This project is an entire Infrastructure and CI/CD setup for a typeorm-express-typescript application
 
 Requirements
 
@@ -33,8 +33,8 @@ Compenents used:
 - ECS, RDS PostgreSQL, S3, VPC, Codebuild, Codepipline, Cloudwatch, etc.
 
 
-Infraestructure diagram
-![Infraestructure](assets/infra.png)
+Infrastructure diagram
+![Infrastructure](assets/infra.png)
 
 CI/CD pipeline diagram
 ![CI/CD](assets/ci-cd-pipeline.png)
