@@ -141,3 +141,11 @@ resource "aws_codebuild_project" "my_cb" {
 
 
 }
+
+output "codebuild_name" {
+  value = aws_codebuild_project.my_cb.name
+}
+
+output "codebuild_id" {
+  value = aws_codebuild_project.my_cb.id
+}

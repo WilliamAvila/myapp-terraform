@@ -16,7 +16,7 @@ resource "aws_codepipeline" "codepipeline" {
       category = "Source"
 
       configuration = {
-        BranchName           = "main"
+        BranchName = "main"
         #ConnectionArn    = aws_codestarconnections_connection.example.arn
         ConnectionArn        = var.codestar_arn
         DetectChanges        = "true"
@@ -181,3 +181,11 @@ resource "aws_iam_role_policy" "codepipeline_policy" {
 # data "aws_kms_alias" "s3kmskey" {
 #   name = "alias/myKmsKey"
 # }
+
+output "aws_codepipeline_name" {
+  value = aws_codepipeline.codepipeline.name
+}
+
+output "aws_codepipeline_id" {
+  value = aws_codepipeline.codepipeline.id
+}
