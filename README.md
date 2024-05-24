@@ -1,7 +1,7 @@
 # myapp-terraform
 
 This project is an entire Infrastructure and CI/CD setup for a typeorm-express-typescript application
-like [this one](!https://github.com/WilliamAvila/typeorm-express-typescript) 
+like [this one](https://github.com/WilliamAvila/typeorm-express-typescript) 
 
 Requirements
 
